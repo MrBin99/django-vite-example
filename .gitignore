@@ -1,0 +1,6 @@
+.vscode
+.idea
+
+.venv
+node_modules
+*sqlite*
