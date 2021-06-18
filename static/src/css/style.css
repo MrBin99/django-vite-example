@@ -1,0 +1,15 @@
+* {
+  box-sizing: content-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
