@@ -129,7 +129,7 @@ DJANGO_VITE_ASSETS_PATH = BASE_DIR / "static" / "dist"
 DJANGO_VITE_DEV_MODE = DEBUG
 
 # Name of static files folder (after called python manage.py collectstatic)
-STATIC_ROOT = "collectedstatic"
+STATIC_ROOT = BASE_DIR / "collectedstatic"
 
 # Include DJANGO_VITE_ASSETS_PATH into STATICFILES_DIRS to be copied inside
 # when run command python manage.py collectstatic
